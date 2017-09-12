@@ -12,12 +12,17 @@ func main() {
 		panic("Please set OMISE_SKEY")
 	}
 
+	port := os.Getenv("PORT")
+	if port == "" {
+		panic("Please set PORT")
+	}
+
 	client, e := omise.NewClient("", key)
 	if e != nil {
 		panic(e)
 	}
 
-	if e := http.ListenAndServe(":8080", &TamboonHandler{client}); e != nil {
+	if e := http.ListenAndServe(":" + port, &TamboonHandler{client}); e != nil {
 		panic(e)
 	}
 }
