@@ -9,7 +9,7 @@ type Charity struct {
 type Donation struct {
 	Name   string `json:"name"`
 	Token  string `json:"token"`
-	Amount int64  `json:"amount"`
+	Amount int    `json:"amount"`
 }
 
 type Result struct {
