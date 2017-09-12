@@ -27,6 +27,12 @@
 			"revisionTime": "2017-08-16T11:06:48Z"
 		},
 		{
+			"checksumSHA1": "E4m4m1KRuPmlMze8zWnYhP4rBeo=",
+			"path": "github.com/omise/omise-go/operations",
+			"revision": "129f301e0298b502112860c8741820e0f426f45d",
+			"revisionTime": "2017-08-16T11:06:48Z"
+		},
+		{
 			"checksumSHA1": "Flz1bR2vcqsyGSMmOn58sd6Mafo=",
 			"path": "github.com/omise/omise-go/schedule",
 			"revision": "129f301e0298b502112860c8741820e0f426f45d",
