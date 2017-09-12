@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"heroku": {
+		"goVersion": "go1.7",
+		"install": [
+			"./..."
+		]
+	},
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "Y3TIVhIwIFSofNVyJolLquTEVIo=",
+			"path": "github.com/omise/omise-go",
+			"revision": "129f301e0298b502112860c8741820e0f426f45d",
+			"revisionTime": "2017-08-16T11:06:48Z"
+		},
+		{
+			"checksumSHA1": "OKOydB07wdLRXI23YS7dFRkiCAo=",
+			"path": "github.com/omise/omise-go/internal",
+			"revision": "129f301e0298b502112860c8741820e0f426f45d",
+			"revisionTime": "2017-08-16T11:06:48Z"
+		},
+		{
+			"checksumSHA1": "bx7zMSraIzmDH8TxC7tyeouwL2o=",
+			"path": "github.com/omise/omise-go/internal/creds",
+			"revision": "129f301e0298b502112860c8741820e0f426f45d",
+			"revisionTime": "2017-08-16T11:06:48Z"
+		},
+		{
+			"checksumSHA1": "Flz1bR2vcqsyGSMmOn58sd6Mafo=",
+			"path": "github.com/omise/omise-go/schedule",
+			"revision": "129f301e0298b502112860c8741820e0f426f45d",
+			"revisionTime": "2017-08-16T11:06:48Z"
+		}
+	],
+	"rootPath": "test-omise"
+}
